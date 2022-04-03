@@ -7,27 +7,30 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Hello World</h1>
-
     <form id="form">
+      <h1>Hello World</h1>
+
       <p>
         <label for="name"> Name: </label>
         <input id="name" type="text" name="name" />
+        <span id="name-error" class="error"></span>
       </p>
 
       <p>
         <label for="password"> Password: </label>
         <input id="password" type="password" name="password" />
+        <span id="password-error" class="error"></span>
       </p>
 
       <p>
         <label for="confirm-password"> Confirm Password: </label>
         <input id="confirm-password" type="password" name="confirm-password" />
+        <span id="confirm-password-error" class="error"></span>
       </p>
 
-      <button id="submit" type="submit">Submit</button>
+      <button id="validate" type="submit">Validate</button>
     </form>
 
-    <script src="main.js"></script>
+    <script src="src/main.js"></script>
   </body>
 </html>

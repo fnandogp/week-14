@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+form {
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 100px auto;
+}
+
+input {
+  width: 100%;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #c1c1c1;
+}
+
+textarea {
+  width: 100%;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #c1c1c1;
+}
+
+button {
+  width: 100%;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
